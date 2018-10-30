@@ -1,0 +1,4 @@
+try:
+        group = ur.find("div", "user-actions btn-group not-following ")
+    except:
+        group = ur.find("div", "user-actions btn-group not-following protected")
