@@ -13,4 +13,12 @@ print (currentTime)
 print (currentTime.hour)
 print (currentTime.minute)
 print (currentTime.second)
+
+print (datetime.datetime.strftime(currentTime, '%H:%M'))
+
+# %H Hours (24 hours)
+# %l Hours (12 hours)
+# %p AM or PM
+# %m Minutes
+# %S Seconds
        
