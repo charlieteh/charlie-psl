@@ -17,3 +17,10 @@ print(guests[-1])
 
 #printing 2nd last item in the list
 print(guests[-2])
+
+guests.append('fourth')
+
+guests.remove('second')
+
+#exact match for items in the array and return index value
+print(guests.index('second'))
