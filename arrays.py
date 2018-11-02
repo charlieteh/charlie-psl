@@ -23,4 +23,6 @@ guests.append('fourth')
 guests.remove('second')
 
 #exact match for items in the array and return index value
-print(guests.index('second'))
+print(guests.index('third'))
+
+
