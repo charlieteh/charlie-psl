@@ -12,7 +12,6 @@ myFile = open(filename, accessMode)
 myFile.write ("Hi there!,\n")
 myFile.write ("How are you?")
 myFile.close()
-"""
 
 anotherFile = open("demo.csv","r")
 fileContent = anotherFile.read()
@@ -20,4 +19,3 @@ print (fileContent)
 
 fileContent = anotherFile.readline()
 print(fileContent)
-"""
