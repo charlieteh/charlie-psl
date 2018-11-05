@@ -12,7 +12,7 @@ guestlist = []
 while crowd != "N" :
     guest = input("Guest name please\n")
     guestlist.append(guest)
-    crowd = input("Are there more people coming for the party? (Y/N)")
+    crowd = input("Anyone else? (Y/N)")
     crowd =str.upper(crowd)
 
 guestlist.sort()
