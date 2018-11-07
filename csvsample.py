@@ -12,8 +12,6 @@ dataFromFile = csv.reader(myCSVfile)
 
 print(dataFromFile)
 
-
-accessMode = 'r'
 """
 with open(fileName, accessMode) as myCSVfile:
     #Read the file contents
@@ -21,7 +19,6 @@ with open(fileName, accessMode) as myCSVfile:
     #For loop that will run once per row
     for row in dataFromFile:
         print(row)
-
 """
 
 for row in dataFromFile:
