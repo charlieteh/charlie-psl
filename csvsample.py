@@ -21,7 +21,18 @@ with open(fileName, accessMode) as myCSVfile:
         print(row)
 """
 
-for row in dataFromFile:
+"""
+for row in dataFromFile :
     print(row)
+"""
+
+"""
+for row in dataFromFile :
+    for value in row :
+        print (value)
+"""
+#without square brackets and quotes for output result
+for row in dataFromFile :
+    print (', '.join(row))
     
 myCSVfile.close()
