@@ -39,9 +39,9 @@ inuUser[dog_name] = dog_age
 inuage.append(inuUser.age)
 
 #convert inuage nested list into 1-dimension list
-dog_age =[]
+list_dog_age =[]
 for sublist in inuage:
     for item in sublist:
-        dog_age.append(item)
+        list_dog_age.append(item)
 
-get_biggest_number(dog_age)      
+get_biggest_number(list_dog_age)      
