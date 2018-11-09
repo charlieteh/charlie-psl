@@ -21,6 +21,8 @@ def get_biggest_number(age):
 
 #create empty list
 inuage = []
+dog_name = []
+
  
 inu1 = Dog()
 inu1['Max'] = 6
@@ -34,6 +36,12 @@ inu3 = Dog()
 inu3['Megan'] = 3
 inuage.append(inu3.age)
 
+inuTest = Dog()
+dog_name = input("Dog's name?\n")
+dog_age = int(input("Dog's age?\n"))
+inuTest[dog_name] = dog_age
+inuage.append(inuTest.age)
+
 #convert inuage nested list into 1-dimension list
 dog_age =[]
 for sublist in inuage:
@@ -41,4 +49,6 @@ for sublist in inuage:
         dog_age.append(item)
 
 get_biggest_number(dog_age)
+
+
         
