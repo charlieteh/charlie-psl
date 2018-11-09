@@ -44,7 +44,4 @@ for sublist in inuage:
     for item in sublist:
         dog_age.append(item)
 
-get_biggest_number(dog_age)
-
-
-        
+get_biggest_number(dog_age)      
