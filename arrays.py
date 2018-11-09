@@ -25,4 +25,13 @@ guests.remove('second')
 #exact match for items in the array and return index value
 print(guests.index('third'))
 
+#sorting option applied
+guests.sort()
 
+""""
+""""
+
+for names in guests:
+    print (names)
+    
+print("All names in list has bene printed")

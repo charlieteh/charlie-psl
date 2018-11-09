@@ -9,6 +9,12 @@ class Critter:
     """A virtual pet"""
     def talk(self):
        print ("Hi, I'm an instance of class Critter.") 
+    def testStatic():
+        print ("Hey, I am static")
+    
+    testStatic = staticmethod (testStatic)
        
 crit = Critter()
 crit.talk()
+
+crit.testStatic()
