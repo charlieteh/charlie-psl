@@ -32,15 +32,11 @@ inu2 = Dog()
 inu2['Bobby'] = 15
 inuage.append(inu2.age)
 
-inu3 = Dog()
-inu3['Megan'] = 3
-inuage.append(inu3.age)
-
-inuTest = Dog()
+inuUser = Dog()
 dog_name = input("Dog's name?\n")
 dog_age = int(input("Dog's age?\n"))
-inuTest[dog_name] = dog_age
-inuage.append(inuTest.age)
+inuUser[dog_name] = dog_age
+inuage.append(inuUser.age)
 
 #convert inuage nested list into 1-dimension list
 dog_age =[]
