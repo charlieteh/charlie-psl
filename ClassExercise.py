@@ -16,7 +16,6 @@ class Dog:
 
 def get_biggest_number(age):
     oldest_dog_age = max(age)
-    #print (oldest_dog_age)
     print ("The oldest dog here is ", oldest_dog_age, " years old.")
     return
 
