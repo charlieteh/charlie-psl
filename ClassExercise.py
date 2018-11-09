@@ -34,7 +34,7 @@ inu3 = Dog()
 inu3['Megan'] = 3
 inuage.append(inu3.age)
 
-#convert inuage nested listed into 1-dimension list
+#convert inuage nested list into 1-dimension list
 dog_age =[]
 for sublist in inuage:
     for item in sublist:
