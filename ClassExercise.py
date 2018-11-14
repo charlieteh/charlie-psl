@@ -13,7 +13,7 @@ class Dog:
     def __setitem__ (self, name, age):
         self.name.append(name)
         self.age.append(age)
-
+    
 def get_biggest_number(age):
     oldest_dog_age = max(age)
     print ("The oldest dog here is ", oldest_dog_age, " years old.")
@@ -21,9 +21,7 @@ def get_biggest_number(age):
 
 #create empty list
 inuage = []
-dog_name = []
 
- 
 inu1 = Dog()
 inu1['Max'] = 6
 inuage.append(inu1.age)
