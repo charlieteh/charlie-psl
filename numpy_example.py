@@ -18,3 +18,7 @@ print(z)
 
 c = np.arange(9).reshape(3,3)
 print(c)
+
+x = np.arange(10)
+print(x[2:5])
+print(x[:-7])
